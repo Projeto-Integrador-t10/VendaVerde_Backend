@@ -28,8 +28,6 @@ public class Usuario {
 	@Size(min = 1, max = 250)
 	private String senha;
 	
-	private boolean admin;
-	
 	private String tipo;
 
 	public Long getId() {return id;	}
@@ -42,6 +40,4 @@ public class Usuario {
 	public void setSenha(String senha) {this.senha = senha;}
 	public String getTipo() {return tipo;}
 	public void setTipo(String tipo) {this.tipo = tipo;	}	
-	public boolean isAdmin() { return admin;	}	
-	public void setAdmin(boolean admin) { this.admin = admin;	}
 }
