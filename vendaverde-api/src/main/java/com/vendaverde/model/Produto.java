@@ -65,5 +65,6 @@ public class Produto {
 	public void setImag2(String imag2) {this.imag2 = imag2;	}
 	public String getImag3() {return imag3;	}
 	public void setImag3(String imag3) {this.imag3 = imag3;	}
-	public void setdescricao(String descricao) {this.descricao = descricao;	}	
+	public String getDescrição() {return descrição;	}
+	public void setDescricao(String descricao) {this.descricao = descricao;	}	
 }
