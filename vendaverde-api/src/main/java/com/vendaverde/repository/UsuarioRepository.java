@@ -9,7 +9,7 @@ import com.vendaverde.model.Usuario;
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Long>{	
 	public List<Usuario> findAllByNomeContainingIgnoreCase(String nome);
-	//puxar pelo username, no find o usuario é o atributo da class usuario
+	//puxar pelo username, no find o usuario Ã© o atributo da class usuario
 	public Optional<Usuario> findByUsuario(String usuario);
 	
 }
